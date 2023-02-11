@@ -1,14 +1,15 @@
 body{
     background-color: #F2F2F2;
     font-family: 'Barlow', sans-serif;
-    padding: 24px;
     overflow-x: hidden;
+    margin: 24px;
 }
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 24px;
 }
 
 #pre-order-header,
@@ -31,6 +32,10 @@ header{
 #pre-order-main{
     color: #FFFFFF;
     background-color: #F16718   ;
+}
+
+.typemaster{
+    margin: 40px 24px;
 }
 
 #center{
@@ -68,7 +73,8 @@ img{
 }
 
 #keyboard{
-    width: 372px;
-    transform: translate(24px);
+    max-width: 375px;
     border-radius: 20px 0 0 20px;
+    /* margin: 24px 0 24px 24px;  */
+    
 }
