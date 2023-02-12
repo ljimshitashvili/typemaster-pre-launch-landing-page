@@ -126,6 +126,7 @@ img{
     border-radius: 0 20px 20px 0;
     margin-left: -54px;
     background-color: #F16718;
+    max-width: 259px;
 }
 
 .grid-1{
@@ -200,4 +201,51 @@ footer h3{
 
 .reserved{
     font-weight: 500;
+}
+
+
+/* tablet version */
+
+
+@media (min-width: 720px){
+
+    body{
+        padding: 0 39px;
+    }
+
+    header{
+        padding: 40px 0;
+    }
+
+    .container-1{
+        display: flex;
+        max-height: 526px;
+        gap: 69px;
+        
+    }
+
+    .typemaster{
+        max-width: 339px;
+    }
+
+    #keyboard-tablet{
+        width: 478px;
+        border-radius: 20px 0 0 20px;
+        margin: 24px -39px 24px 24px; 
+    }
+
+    #keyboard-tablet,
+    #phone-tablet,
+    #glass-tablet{
+        display: unset;
+    }
+
+    #keyboard-mobile,
+    #keyboard-desktop,
+    #glass-mobile,
+    #glass-desktop,
+    #phone-mobile,
+    #phone-desktop{
+    display: none;
+}
 }
