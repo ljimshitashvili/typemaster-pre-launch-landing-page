@@ -1,6 +1,12 @@
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
 body{
     background-color: #F2F2F2;
     font-family: 'Barlow', sans-serif;
+    
 }
 
 header{
@@ -23,13 +29,17 @@ header{
     text-decoration: none;
 }
 
+.section-1{
+    overflow: hidden;
+}
+
 .section-1 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0 24px;
     gap: 32px;
-
+    
 }
 
 .section-1 h1{
@@ -39,6 +49,7 @@ header{
     line-height: 48px;
     text-transform: uppercase;
     width: 100%;
+    overflow: hidden;
 }
 
 .section-1 h2{
@@ -46,6 +57,7 @@ header{
     font-weight: 700;
     font-size: 16px;
     line-height: 26px;
+    
 }
 
 .section-1 p{
@@ -76,30 +88,38 @@ header{
 }
 
 .keyboard-mobile{
-    float: right;
-    width: 93%;
-    margin: 64px 0 0 24px;
+    width: 100%;
+    margin: 64px -24px 0 24px;
     border-radius: 20px 0 0 20px;
+    transform: translate(right -24px);
 }
 
 .section-2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 24px;
+    margin: 0;
 }
 
 .section-2 .photo-container{
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    margin-top: 25px;
+    margin: 25px 24px 0 0;
 }
 
 .phone-mobile{
     border-radius: 0 20px 20px 0;
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+}
+
+.opacity{
     width: 40%;
-    margin-left: -24px;
+    background-color: #F16718;
+    border-radius: 0 20px 20px 0;
+    overflow-y: hidden;
 }
 
 .glass-mobile{
@@ -122,6 +142,7 @@ header{
     width: 255px;
     text-align: center;
     margin: 75px 0 24px 0;
+    height: 108px;
 }
 
 .section-2 p{
@@ -130,6 +151,7 @@ header{
     font-size: 16px;
     line-height: 26px;
     text-align: center;
+    margin: 0 24px;
 }
 
 .section-3{
@@ -150,6 +172,7 @@ header{
     align-items: center;
     margin-bottom: 48px;
     border-radius: 16px;
+    
 }
 
 .card{
@@ -195,4 +218,8 @@ footer span{
     font-size: 16px;
     line-height: 26px;
     text-align: center;
+}
+
+@media (min-width: 720px){
+
 }
