@@ -350,3 +350,104 @@ footer span{
         display: none;
     }
 }
+
+@media (min-width: 1024px){
+
+    header{
+        padding: 65px 165px;
+    }
+
+    .section-1{
+        background-image: url("typemaster-pre-launch-landing-page/typemaster-pre-launch-landing-page/starter-code/assets/shared/pattern-square.svg");
+        background-repeat: no-repeat;
+        background-position-x: right ;
+        background-size: 255px 240px;
+        width: 100%;
+        gap: 50px;
+        justify-content: space-between;
+    }
+    
+    .section-1 .container{
+        padding: 40px 0 0 165px;
+        gap: 39px;
+        max-width: 600px;
+    }
+
+    .keyboard-desktop{
+        max-height: 425px;
+        border-radius: 20px;
+        margin: 0 165px 0 0;
+    }
+
+    .section-2{
+        flex-direction: unset;
+        margin: 25px 165px 0 165px;
+        gap: 125px;
+    }
+    
+    .phone-desktop{
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        opacity: 50%;
+    }
+    
+    .glass-desktop{
+        width: 60%;
+        border-radius: 20px;
+    }
+    
+    .section-2 .text-container{
+        flex-direction: column;
+        margin: 0;
+        gap: 27px;
+        max-width: 255px;
+    }
+        
+    .section-2 p{
+        text-align: left;
+    }
+
+    .keyboard-desktop,
+    .phone-desktop,
+    .glass-desktop{
+        display: unset;
+    }
+
+    .keyboard-tablet,
+    .phone-tablet,
+    .glass-tablet{
+        display: none;
+    }
+
+    .section-3{
+        flex-wrap: nowrap;
+        margin: 0 165px;
+        gap: 30px;
+        margin-top: 150px;
+        max-width: unset;
+    }
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        max-width: 280px;
+        max-height: unset;
+    }
+    
+    .card h1,
+    .card p{
+        text-align: left;
+    }
+
+    #pre-order-header:hover{
+        background-color: #162542;
+        color: #FFFFFF;
+    }
+
+    #pre-order-main:hover{
+        background-color: #FF9B62;
+    }
+
+}
